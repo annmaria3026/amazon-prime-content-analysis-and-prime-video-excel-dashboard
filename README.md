@@ -1,6 +1,6 @@
 # Amazon Prime Content Dashboard (Excel)
 
-An interactive Excel dashboard that analyses the Amazon Prime catalogue of movies and TV shows, built with Pivot Tables and charts.
+An interactive Excel dashboard that analyses the Amazon Prime catalogue of movies and TV shows, built with Pivot Tables, charts and slicers.
 
 ## Dashboard Preview
 
@@ -12,13 +12,13 @@ The goal was to understand what content Amazon Prime offers: how it splits betwe
 
 ## Dataset
 
-- **Source:** [add where you downloaded it, e.g. Kaggle, with the link]
+- **Source:** [Amazon Prime Movies and TV Shows – Kaggle (Shivam Bansal)](https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows)
 - **Size:** 9,668 titles
 - **Columns:** show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description
 
 ## Analysis Performed
 
-Six Pivot Tables feed the dashboard charts:
+Six Pivot Tables feed six charts, and six slicers (type, release year, country, rating, director, genre) let you filter the whole dashboard interactively:
 
 1. Content by type (movies vs TV shows)
 2. Titles by release year
@@ -38,6 +38,7 @@ Six Pivot Tables feed the dashboard charts:
 
 - Microsoft Excel
 - Pivot Tables
+- Slicers
 - Excel Charts
 
 ## Files
@@ -47,7 +48,7 @@ Six Pivot Tables feed the dashboard charts:
 
 ## Limitations
 
-- [Optional: e.g. "Some titles have a missing director or rating, so those counts are lower than the total."]
+- Some titles have no director (2,082) or no rating (337), so those counts are lower than the total of 9,668.
 
 ## Author
 
